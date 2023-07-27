@@ -122,6 +122,7 @@
             this.Controls.Add(this.browseBtn);
             this.Controls.Add(this.filePathBox);
             this.Name = "CHZ_3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.CHZ_3_Load);
             this.ResumeLayout(false);
